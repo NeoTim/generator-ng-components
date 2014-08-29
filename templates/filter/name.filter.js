@@ -1,8 +1,14 @@
 'use strict';
+(function(){
+  var <%= cameledName %> = function(){
 
-angular.module('<%= scriptAppName %>')
-  .filter('<%= cameledName %>', function () {
     return function (input) {
       return '<%= cameledName %> filter: ' + input;
     };
-  });
+
+  };
+  angular
+    .module('<%= scriptAppName %>')
+    .filter('<%= cameledName %>', <%= cameledName %>);
+
+}).call(this);
