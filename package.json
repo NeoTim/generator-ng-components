@@ -1,15 +1,14 @@
 {
-  "name": "generator-ng-component",
-  "version": "0.0.9",
+  "name": "generator-ng-components",
+  "version": "1.0.0",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "DaftMonk/generator-ng-component",
-  "author": {
-    "name": "Tyler Henkel",
-    "email": "",
-    "url": "https://github.com/DaftMonk"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joelcoxokc/generator-ng-components"
   },
+  "author": "Joel Cox (https://github.com/joelcoxokc)",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -34,5 +33,12 @@
   },
   "peerDependencies": {
     "yo": ">=1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/joelcoxokc/generator-ng-components/issues"
+  },
+  "homepage": "https://github.com/joelcoxokc/generator-ng-components",
+  "directories": {
+    "test": "test"
   }
 }
