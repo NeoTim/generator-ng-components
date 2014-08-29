@@ -17,6 +17,8 @@
     }
   };
 
+  // <%= classedName %>
+  //   .$inject = [];
   angular
     .module('<%= scriptAppName %>')
     .factory('<%= cameledName %>', <%= cameledName %>);

@@ -10,8 +10,7 @@
 
   };
 
-  configuration
-    .$inject = ['$provide'];
+  configuration.$inject = ['$provide'];
 
   angular
     .module('<%= scriptAppName %>')

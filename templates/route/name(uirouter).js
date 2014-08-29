@@ -1,11 +1,18 @@
 'use strict';
+(function(){
 
-angular.module('<%= scriptAppName %>')
-  .config(function ($stateProvider) {
+  var <%= classedName %> = function ($stateProvider) {
     $stateProvider
       .state('<%= name %>', {
         url: '<%= route %>',
         templateUrl: '<%= htmlUrl %>',
         controller: '<%= classedName %>Ctrl'
       });
-  });
+  };
+  <%= classedName %>
+    .$inject = ['$stateProvider'];
+  angular
+    .module('<%= scriptAppName %>')
+    .config( <%= classedName %> );
+
+}).call(this);

@@ -5,11 +5,9 @@
     $scope.message = 'Hello';
   };
 
-
   <%= classedName %>Ctrl
-    .$inject = [
-      '$scope'
-    ];
+    .$inject = ['scope'];
+
   angular
     .module('<%= scriptAppName %>')
     .controller('<%= classedName %>Ctrl', <%= classedName %>Ctrl);
