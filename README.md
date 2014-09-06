@@ -1,4 +1,4 @@
-# generator-ng-components [![Build Status](https://secure.travis-ci.org/DaftMonk/generator-ng-component.png?branch=master)](https://travis-ci.org/DaftMonk/generator-ng-component)
+# generator-ng-components [![Build Status](https://secure.travis-ci.org/joelcoxokc/generator-ng-components.png?branch=master)](https://travis-ci.org/joelcoxokc/generator-ng-components)
 
 > [Yeoman](http://yeoman.io) generator
 
